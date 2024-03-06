@@ -18,5 +18,5 @@ bot.on(message("web_app_data"), async (ctx) => {
   const data = ctx.webAppData.data.json();
   ctx.reply(`Your message: ${data?.feedback}` ?? "empty message");
 });
-
+//ksjksdjksdjskdj
 bot.launch();
